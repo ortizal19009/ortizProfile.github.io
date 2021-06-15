@@ -14,3 +14,11 @@ header{
     border-radius: 5em;
     z-index: 1;
 }
+header h1{
+    color: white;
+}
+#idFotoPerfil{
+    width:200px;
+    height:auto;
+    border: 3px rgb(196, 17, 17) solid;
+}
