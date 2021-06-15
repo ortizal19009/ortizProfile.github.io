@@ -2,19 +2,15 @@ body{
     margin: 0;
     padding: 0;
 }
-header #idPortada {
-    width:100%;
-    height:150%;
-    margin:0px;
-    padding:0px;
-
+header{
+    text-align:center;
+    background-image: url(img/portada.jpg);
+    height: 300px;    
 }
-header #idLogo{
-    width:25%;
-    height:25%;
-    background-color:blue;
-    border-radius: 20em;
-    padding:3em;
-    position: fixed;
-    float: center;
+#idLogo{
+    border: rgb(45, 255, 175) 2px solid;
+    width:20%;
+    height:80%;
+    border-radius: 5em;
+    z-index: 1;
 }
