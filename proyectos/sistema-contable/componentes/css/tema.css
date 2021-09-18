@@ -1,0 +1,12 @@
+header{
+    text-align: center;
+}
+.logo{
+    background:rgb(150, 146, 146);
+}
+.logo img{
+    border:black 3px solid;
+    height:75px;
+    width:100px;
+    margin:1em;
+}
