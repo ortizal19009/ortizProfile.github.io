@@ -1,12 +1,21 @@
-header{
-    text-align: center;
+header {
+  text-align: center;
 }
-.logo{
-    background:rgb(150, 146, 146);
+.logo {
+  background: rgb(150, 146, 146);
 }
-.logo img{
-    border:black 3px solid;
-    height:75px;
-    width:100px;
-    margin:1em;
+.logo img {
+  border: black 3px solid;
+  height: 75px;
+  width: 100px;
+  margin: 1em;
 }
+
+article a:link {
+  color: rgb(76, 153, 51);
+}
+article a.external {
+  color: #f60;
+}
+
+

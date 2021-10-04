@@ -1,0 +1,25 @@
+[type="button"] {
+    background: #333;
+    border: 3px solid #333;
+    border-radius: 100px;
+    color: white;
+    line-height: 1;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+}
+.btn.primero{
+    background:rgb(61, 255, 132);
+    color: white;
+}
+.btn.segundo{
+    background:rgb(188, 96, 235);
+    color: white;
+}
+[type="submit"]{
+    background:rgb(0, 123, 255);
+    border: 3px solid rgb(0, 123, 255);
+      color: white;
+      border-radius: 10px;
+      line-height:1;
+      padding: .5rem;
+  }
