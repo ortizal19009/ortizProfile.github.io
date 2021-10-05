@@ -1,0 +1,12 @@
+.form {
+  border: 2px solid black;
+  padding: 5px;
+  background: #afafaf;
+  border-radius: 10px;
+}
+
+.form label {
+  background: red;
+  padding: 3em;
+}
+/*# sourceMappingURL=formularios.css.map */

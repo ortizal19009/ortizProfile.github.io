@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAA;EACD,MAAM,EAAC,eAAe;EACtB,OAAO,EAAC,GAAG;EACX,UAAU,EAAC,OAAkB;EAC7B,aAAa,EAAE,IAAI;CAMtB;;AAVD,AAKI,KALC,CAKD,KAAK,CAAA;EACD,UAAU,EAAE,GAAG;EACf,OAAO,EAAE,GAAG;CACf",
+    "sources": [
+        "formularios.scss"
+    ],
+    "names": [],
+    "file": "formularios.css"
+}
