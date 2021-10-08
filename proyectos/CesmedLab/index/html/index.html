@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../conexion/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container-fluid">
+        <header>
+            <h1>O&TLAB - CESMED</h1>
+            <h2 class="subtitulo">Solicitud de examenes de laboratorio</h2>
+        </header>
+        <nav></nav>
+        <section>
+            <form action="" method="" id="datosFormulario">
+                <div class="firstForm">
+                    <div class="formHeader row">
+                        <div class="col-sm">
+                            <label for="nombre">
+                                <h3>Nombre</h3>
+                            </label>
+                            <br>
+                            <input type="text" placeholder="NOMBRE" id="nombre" name="nombre">
+    
+                        </div>
+                        <div class="col-sm">
+                            <label for="fecha">
+                                <h3>Fecha de Nacimiento</h3>
+                            </label>
+                            <br>
+                            <input type="date" placeholder="dd/mm/aaaa" id="fecha" name="fechaNacimiento">
+                        </div>
+                        <div class="col-sm">
+                            <label for="nombre">
+                                <h3>Cédula</h3>
+                            </label>
+                            <br>
+                            <input type="text" placeholder="CEDULA" id="edad" name="cedula">
+                        </div>
+                    </div>
+                    <div class="formHeader row">
+                        <div class="col-sm">
+                            <label for="medico">
+                                <h3>Médico</h3>
+                            </label>
+                            <br>
+                            <input type="text" placeholder="MÉDICO" id="medico" name="medico">
+                        </div>
+                        <div class="col-sm">
+                            <label for="lugar">
+                                <h3>Lugar</h3>
+                            </label>
+                            <br>
+                            <input type="text" placeholder="LUGAR" id="lugar" name="lugar">
+                        </div>
+                        <div class="col-sm">
+                            <label for="fecha">
+                                <h3>Fecha de exámen</h3>
+                            </label>
+                            <br>
+                            <input type="date" placeholder="dd/mm/aaaa" id="fecha" name="fechaExamen"> 
+                        </div>
+                    </div>
+                    <input type="submit" value="Continuar" class="btn-continuar btn-primary">
+                </div>
+            </form>
+            <hr>
+            <form action="" class="" id="solicitudFormulario" method="">
+                <div class="formBody">
+                    <div class="row">
+                        <div class="col-sm" id="">
+                            <h2 class="clase" name="HEMATOLOGÍA" >HEMATOLOGÍA</h2>
+                            <input type="checkbox" name="biometria" id="hematologia1" value="Biometria Hemática completa">
+                            <label for="hematologia1">Biometria Hemática completa</label><br>
+                            <input type="checkbox" name="hcto" id="hematologia2" value="Hcto/Hb">
+                            <label for="hematologia2">Hcto/Hb</label><br>
+                            <input type="checkbox" name="plaquetas" id="hematologia3" value="Plaquetas">
+                            <label for="hematologia3">Plaquetas</label><br>
+                            <input type="checkbox" name="sedimientos" id="hematologia4" value="Sedimentación (VSG)">
+                            <label for="hematologia4">Sedimentación (VSG)</label><br>
+                            <input type="checkbox" name="hematozoario" id="hematologia5" value="Hematozario">
+                            <label for="hematologia5">Hematozoario</label><br>
+                            <input type="checkbox" name="reticulacitos" id="hematologia6" value="Reticulocitos">
+                            <label for="hematologia6">Reticulocitos</label><br>
+                            <input type="checkbox" name="grupoFactor" id="hematologia7" value="Grupo y factor Flh">
+                            <label for="hematologia7">Grupo y factor Flh</label><br>
+                            <div class="" id="">
+                                <h2 class="clase">COAGULACIÓN</h2>
+                                <input type="checkbox" name="inr" id="coagulacion1" value="T.P. - INR">
+                                <label for="coagulacion1">T.P. - INR</label><br>
+                                <input type="checkbox" name="ttp" id="coagulacion2" value="T.T.P.">
+                                <label for="coagulacion2">T.T.P.</label><br>
+                            </div>
+                        </div>
+                        <div class="col-sm" id="">
+                            <h2 class="clase">QUÍMICA SANGUÍNEA</h2>
+                            <input type="checkbox" name="sanguinea1" id="sanguinea1" value="Glucosa Basal">
+                            <label for="sanguinea1">Glucosa Basal</label><br>
+                            <input type="checkbox" name="sanguinea2" id="sanguinea2" value="Glucosa Post. paradial">
+                            <label for="sanguinea2">Glucosa Post. prandial</label><br>
+                            <input type="checkbox" name="sanguinea3" id="sanguinea3" value="Curva de glucosa---Horas">
+                            <label for="sanguinea3">Curva de glucosa---Horas</label><br>
+                            <input type="checkbox" name="sanguinea4" id="sanguinea4" value="Urea">
+                            <label for="sanguinea4">Urea</label><br>
+                            <input type="checkbox" name="sanguinea5" id="sanguinea5" value="Creatina">
+                            <label for="sanguinea5">Creatinina</label><br>
+                            <input type="checkbox" name="sanguinea6" id="sanguinea6" value="Acido úrico">
+                            <label for="sanguinea6">Acido úrico</label><br>
+                            <input type="checkbox" name="sanguinea7" id="sanguinea7" value="Colesterol">
+                            <label for="sanguinea7">Colesterol</label><br>
+                            <input type="checkbox" name="sanguinea8" id="sanguinea8" value="HDL colesterol">
+                            <label for="sanguinea8">HDL colesterol</label><br>
+                            <input type="checkbox" name="sanguinea9" id="sanguinea9" value="LDL clesterol">
+                            <label for="sanguinea9">LDL clesterol</label><br>
+                            <input type="checkbox" name="sanguinea10" id="sanguinea10" value="Triglicéridos">
+                            <label for="sanguinea10">Triglicéridos</label><br>
+                            <input type="checkbox" name="sanguinea11" id="sanguinea11" value="Bilirrubina">
+                            <label for="sanguinea11">Bilirrubina</label><br>
+                            <input type="checkbox" name="sanguinea12" id="sanguinea12" value="Proteinas totales">
+                            <label for="sanguinea12">Proteinas totales</label><br>
+                            <input type="checkbox" name="sanguinea13" id="sanguinea13" value="Albumina">
+                            <label for="sanguinea13">Albumina</label><br>
+                            <input type="checkbox" name="sanguinea14" id="sanguinea14" value="Globulinas">
+                            <label for="sanguinea14">Globulinas</label><br>
+                            <input type="checkbox" name="sanguinea15" id="sanguinea15" value="Calcio total">
+                            <label for="sanguinea15">Calcio total</label><br>
+                        </div>
+                        <div class="col-sm" id="">
+                            <h2 class="clase">ENZIMAS</h2>
+                            <input type="checkbox" name="enzimas1" id="enzimas1" value="TGO">
+                            <label for="enzimas1">TGO</label><br>
+                            <input type="checkbox" name="enzimas2" id="enzimas2" value="TGP">
+                            <label for="enzimas2">TGP</label><br>
+                            <input type="checkbox" name="enzimas3" id="enzimas3" value="Fost. Alcalina">
+                            <label for="enzimas3">Fost. Alcalina</label><br>
+                            <input type="checkbox" name="enzimas4" id="enzimas4" value="Amilasa">
+                            <label for="enzimas4">Amilasa</label><br>
+                            <input type="checkbox" name="enzimas5" id="enzimas5" value="Lipasa">
+                            <label for="enzimas5">Lipasa</label><br>
+                            <input type="checkbox" name="enzimas6" id="enzimas6" value="LDH">
+                            <label for="enzimas6">LDH</label><br>
+                            <div class="" id="">
+                                <h2 class="clase">ELECTROLITOS</h2>
+                                <input type="checkbox" name="electrolitos1" id="electrolitos1" value="Solido">
+                                <label for="electrolitos1">Solido</label><br>
+                                <input type="checkbox" name="electrolitos2" id="electrolitos2" value="Potasio">
+                                <label for="electrolitos2">Potasio</label><br>
+                                <input type="checkbox" name="electrolitos3" id="electrolitos3" value="Cloro">
+                                <label for="electrolitos3">Cloro</label><br>
+                                <input type="checkbox" name="electrolitos4" id="electrolitos4" value="Calcio Lonico">
+                                <label for="electrolitos4">Calcio Lonico</label><br>
+                                <input type="checkbox" name="electrolitos5" id="electrolitos5" value="Utlo">
+                                <label for="electrolitos5">Utlo</label><br>
+                                <input type="checkbox" name="electrolitos6" id="electrolitos6" value="Fósforo">
+                                <label for="electrolitos6">Fósforo</label><br>
+                            </div>
+                        </div>
+                        <div class="col-sm" id="">
+                            <h2 class="clase">SEROLOGÍA</h2>
+                            <input type="checkbox" name="serologia1" id="serologia1" value="Aglutinaciones Febriles">
+                            <label for="serologia1">Aglutinaciones Febriles</label><br>
+                            <input type="checkbox" name="serologia2" id="serologia2" value="ASTO">
+                            <label for="serologia2">ASTO</label><br>
+                            <input type="checkbox" name="serologia3" id="serologia3" value="RF LATEX">
+                            <label for="serologia3">RF LATEX</label><br>
+                            <input type="checkbox" name="serologia4" id="serologia4" value="PCR">
+                            <label for="serologia4">PCR</label><br>
+                            <input type="checkbox" name="serologia5" id="serologia5" value="V.D.A.L.">
+                            <label for="serologia5">V.D.A.L.</label><br>
+                            <input type="checkbox" name="serologia6" id="serologia6" value="R.P.R.">
+                            <label for="serologia6">R.P.R.</label><br>
+                            <input type="checkbox" name="serologia7" id="serologia7" value="FTA ABS">
+                            <label for="serologia7">FTA ABS</label><br>
+                        </div>   
+                        <div class="col-sm">
+                            <h2 class="clase">PRUEBAS CARDIACAS</h2>
+                            <input type="checkbox" name="cardiacas1" id="cardiacas1" value="CPK">
+                            <label for="cardiacas1">CPK</label> 
+                            <br>
+                            <input type="checkbox" name="cardiacas2" id="cardiacas2" value="CK MB">
+                            <label for="cardiacas2">CK MB</label> 
+                            <br>
+                            <input type="checkbox" name="cardiacas3" id="cardiacas3" value="TROPONINA">
+                            <label for="cardiacas3">TROPONINA</label> 
+                            <br>
+                            <input type="checkbox" name="cardiacas4" id="cardiacas4" value="Dimero D">
+                            <label for="cardiacas4">Dimero D</label> 
+                            <br>
+                            <input type="checkbox" name="cardiacas5" id="cardiacas5" value="Miglobina">
+                            <label for="cardiacas5">Mioglobina</label> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm" id="">
+                            <h2 class="clase">INMUNOLOGÍA</h2>
+                            <div class="row">
+                                <div class="col-sm">
+                                    <input type="checkbox" name="inmunologia1" id="inmunologia1" value="Toxoplasma">
+                                    <label for="inmunologia1">Toxoplasma</label> 
+                                    <br>
+                                    <input type="checkbox" name="inmunologia2" id="inmunologia2" value="Rubiola">
+                                    <label for="inmunologia2">Rubiola</label>
+                                    <br>
+                                    <input type="checkbox" name="inmunologia3" id="inmunologia3" value="Citomegalovirus">
+                                    <label for="inmunologia3">Citomegalovirus</label>
+                                    <br>
+                                    <input type="checkbox" name="inmunologia4" id="inmunologia4" value="Herpes 1">
+                                    <label for="inmunologia4">Herpes 1</label>
+                                    <br>
+                                    <input type="checkbox" name="inmunologia5" id="inmunologia5" value="Herpes 2">
+                                    <label for="inmunologia5">Herpes 2</label>
+                                    <br>
+                                    <input type="checkbox" name="inmunologia6" id="inmunologia6" value="Chlamydla">
+                                    <label for="inmunologia6">Chlamydla</label>
+                                    <br>
+                                    <input type="checkbox" name="inmunologia7" id="inmunologia7" value="Heticobacter Pylori">
+                                    <label for="inmunologia7">Heticobacter Pylori</label><br>
+                                    <input type="checkbox" name="inmunologia8" id="inmunologia8" value="HAV IgM">
+                                    <label for="inmunologia8">HAV IgM</label><br>
+                                    <input type="checkbox" name="inmunologia9" id="inmunologia9" value="HbsAg.">
+                                    <label for="inmunologia9">HbsAg.</label><br>
+                                    <input type="checkbox" name="inmunologia10" id="inmunologia10" value="HCV">
+                                    <label for="inmunologia10">HCV</label><br>
+                                    <input type="checkbox" name="inmunologia11" id="inmunologia11" value="HIV 1-2">
+                                    <label for="inmunologia11">HIV 1-2</label><br>
+                                    <input type="checkbox" name="inmunologia12" id="inmunologia12" value="C3">
+                                    <label for="inmunologia12">C3</label><br>
+                                    <input type="checkbox" name="inmunologia13" id="inmunologia13" value="C4">
+                                    <label for="inmunologia13">C4</label><br>
+                                    <input type="checkbox" name="inmunologia14" id="inmunologia14" value="IgE">
+                                    <label for="inmunologia14">IgE</label><br>
+                                </div>
+                                <div class="col-sm">
+                                    <input type="checkbox" name="img1" id="img1" value="">
+                                    <label for="img1">IgM</label> 
+                                    <input type="checkbox" name="igg1" id="igg1">
+                                    <label for="igg1">IgG</label> 
+                                    <br>
+                                    <input type="checkbox" name="img2" id="img2">
+                                    <label for="img2">IgM</label> 
+                                    <input type="checkbox" name="igg2" id="igg2">
+                                    <label for="igg2">IgG</label> 
+                                    <br>
+                                    <input type="checkbox" name="img3" id="img3">
+                                    <label for="img3">IgM</label> 
+                                    <input type="checkbox" name="igg3" id="igg3">
+                                    <label for="igg3">IgG</label> 
+                                    <br>
+                                    <input type="checkbox" name="img4" id="img4">
+                                    <label for="img4">IgM</label> 
+                                    <input type="checkbox" name="igg4" id="igg4">
+                                    <label for="igg4">IgG</label> 
+                                    <br>
+                                    <input type="checkbox" name="img5" id="img5">
+                                    <label for="img5">IgM</label> 
+                                    <input type="checkbox" name="igg5" id="igg5">
+                                    <label for="igg5">IgG</label> 
+                                    <br>
+                                    <input type="checkbox" name="img6" id="img6">
+                                    <label for="img6">IgM</label> 
+                                    <input type="checkbox" name="igg6" id="igg6">
+                                    <label for="igg6">IgG</label> 
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <h2 class="clase">PRUEBAS HORMONALES</h2>
+                            <input type="checkbox" name="hormonales1" id="hormonales1" value="T3">
+                            <label for="hormonales1">T3</label> 
+                            <br>
+                            <input type="checkbox" name="hormonales2" id="hormonales2" value="T4">
+                            <label for="hormonales2">T4</label> 
+                            <br>
+                            <input type="checkbox" name="hormonales3" id="hormonales3" value="ft4">
+                            <label for="hormonales3">ft4</label> 
+                            <br>
+                            <input type="checkbox" name="hormonales4" id="hormonales4" value="TSH">
+                            <label for="hormonales4">TSH</label> 
+                            <br>
+                            <input type="checkbox" name="hormonales5" id="hormonales5" value="FSH">
+                            <label for="hormonales5">FSH</label> 
+                            <br>
+                            <input type="checkbox" name="hormonales6" id="hormonales6" value="Estradiol">
+                            <label for="hormonales6">Estradiol</label> 
+                            <br>
+                            <input type="checkbox" name="hormonales7" id="hormonales7" value="Prolactina">
+                            <label for="hormonales7">Prolactina</label> 
+                            <br>
+                            <input type="checkbox" name="hormonales8" id="hormonales8" value="Progesterona">
+                            <label for="hormonales8">Progesterona</label> 
+                            <br>
+                            <input type="checkbox" name="hormonales9" id="hormonales9" value="Testosterona">
+                            <label for="hormonales9">Testosterona</label> 
+                            <br>
+                            <input type="checkbox" name="hormonales10" id="hormonales10" value="Crotisol am/pm">
+                            <label for="hormonales10">Crotisol am/pm</label> 
+                            <br>
+                            <input type="checkbox" name="hormonales11" id="hormonales11" value="BHCG Cuantitativa">
+                            <label for="hormonales11">BHCG Cuantitativa</label> 
+                            <br>
+                            <input type="checkbox" name="hormonales12" id="hormonales12" value="BHCG Cualitativa">
+                            <label for="hormonales12">BHCG Cualitativa</label> 
+                        </div>
+                        <div class="col-sm">
+                            <h2 class="clase">PRUEBAS METABÓLICAS</h2>
+                            <input type="checkbox" name="metabolica1" id="metabolica1" value="Peptido C">
+                            <label for="metabolica1">Peptido C</label> 
+                            <br>
+                            <input type="checkbox" name="metabolica2" id="metabolica2" value="HbAlc">
+                            <label for="metabolica2">HbAlc</label> 
+                            <br>
+                            <input type="checkbox" name="metabolica3" id="metabolica3" value="Insulina">
+                            <label for="metabolica3">Insulina</label> 
+                            <div class="">
+                                <h2 class="clase">MARCADORES TUMORALES</h2>
+                                <input type="checkbox" name="tumorales1" id="tumorales1" value="PSA Total">
+                                <label for="tumorales1">PSA Total</label> 
+                                <br>
+                                <input type="checkbox" name="tumorales2" id="tumorales2" value="PSA Libre">
+                                <label for="tumorales2">PSA Libre</label> 
+                                <br>
+                                <input type="checkbox" name="tumorales3" id="tumorales3" value="CA 125">
+                                <label for="tumorales3">CA 125</label> 
+                                <br>
+                                <input type="checkbox" name="tumorales4" id="tumorales4" value="AFP">
+                                <label for="tumorales4">AFP</label> 
+                                <br>
+                                <input type="checkbox" name="tumorales5" id="tumorales5" value="CEA">
+                                <label for="tumorales5">CEA</label> 
+                                <br>
+                                <input type="checkbox" name="tumorales6" id="tumorales6" value="Tiroglobulina">
+                                <label for="tumorales6">Tiroglobulina</label> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <h2 class="clase">ORINA</h2>
+                            <input type="checkbox" name="orina1" id="orina1" value="Elemenal">
+                            <label for="orina1">Elemental</label> 
+                            <br>
+                            <input type="checkbox" name="orina2" id="orina2" value="Gran de Gota fresca">
+                            <label for="orina2">Gran de Gota fresca</label> 
+                            <br>
+                            <input type="checkbox" name="orina3" id="orina3" value="Proteinura">
+                            <label for="orina3">Proteinura</label> 
+                            <br>
+                            <input type="checkbox" name="orina4" id="orina4" value="Proteinura en 24 horas">
+                            <label for="orina4">Proteinura en 24 horas</label> 
+                            <br>
+                            <input type="checkbox" name="orina5" id="orina5" value="Microalbuminura">
+                            <label for="orina5">Microalbuminura</label> 
+                        </div>
+                        <div class="col-sm">
+                            <h2 class="clase">HECES</h2>
+                            <input type="checkbox" name="heces1" id="heces1" value="Coproparasitario">
+                            <label for="heces1">Coproparasitario</label> 
+                            <br>
+                            <input type="checkbox" name="heces2" id="heces2" value="Coproparasitario seriado">
+                            <label for="heces2">Coproparasitario seriado</label> 
+                            <br>
+                            <input type="checkbox" name="heces3" id="heces3" value="Inv. De Polimorfonudeares">
+                            <label for="heces3">Inv. De Polimorfonudeares</label> 
+                            <br>
+                            <input type="checkbox" name="heces4" id="heces4" value="Sangre Oculta">
+                            <label for="heces4">Sangre Oculta</label> 
+                            <br>
+                            <input type="checkbox" name="heces5" id="heces5" value="Rotavirus">
+                            <label for="heces5">Rotavirus</label> 
+                            <br>
+                            <input type="checkbox" name="heces5" id="heces5" value="Adenovirus">
+                            <label for="heces5">Adenovirus</label> 
+                            <br>
+                            <input type="checkbox" name="heces6" id="heces6" value="Azúcares reductores">
+                            <label for="heces6">Azúcares reductores</label> 
+                        </div>
+                        <div class="col-sm">
+                            <h2 class="clase">BACTERIOLOGÍA</h2>
+                            <label for="bacteriologia1">
+                                <input type="checkbox" name="bacteriologia1" id="bacteriologia1" value="Fresco y Gam de:"> 
+                                Fresco y Gam de: 
+                                <input type="text" name="frescoGam" class="bact-txt">
+                            </label> 
+                            <br>
+                            <label for="bacteriologia2">
+                                <input type="checkbox" name="bacteriologia2" id="bacteriologia2" value="Cultivo y antibiograma de:"> 
+                                Cultivo y antibiograma de:
+                                <input type="text" name="cultivoAntibiograma" class="bact-txt">
+                            </label> 
+                            <br>
+                            <input type="checkbox" name="bacteriologia3" id="bacteriologia3" value="KOH">
+                            <label for="bacteriologia3">KOH</label> 
+                            <br>
+                            <input type="checkbox" name="bacteriologia4" id="bacteriologia4" value="BAAR">
+                            <label for="bacteriologia4">BAAR</label> 
+                        </div>
+                        <div class="col-sm">
+                            <h2 class="clase">VARIOS</h2>
+                            <input type="checkbox" name="varios1" id="varios1" value="Espermatograma">
+                            <label for="varios1">Espermatograma</label> 
+                            <br>
+                            <input type="checkbox" name="varios2" id="varios2" value="Papánicolaou">
+                            <label for="varios2">Papánicolaou</label> 
+                            <br>
+                            <input type="checkbox" name="varios3" id="varios3" value="Transferina">
+                            <label for="varios3">Transferina</label> 
+                            <br>
+                            <input type="checkbox" name="varios4" id="varios4" value="Hierro Sérico">
+                            <label for="varios4">Hierro Sérico</label> 
+                            <br>
+                            <input type="checkbox" name="varios5" id="varios5" value="Procalcitonina">
+                            <label for="varios5">Procalcitonina</label> 
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" value="Enviar" id="enviar" class="btn btn-primary">
+            </form>
+        </section>
+    </main>
+    <script src="../../conexion/jquery-3.5.1.min.js"></script>
+    <script src="../../conexion/bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
+
+
+<!-- https://www.youtube.com/watch?v=w-IMc8L8GOY -->

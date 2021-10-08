@@ -1,0 +1,33 @@
+body{
+    background: rgba(172, 255, 255, 0.637);
+}
+header h1, .subtitulo{
+    text-align: center;
+}
+header{
+    margin-top:1em;
+    border:rebeccapurple 2px solid;
+    border-radius:20px;
+    background-color: rgba(230, 203, 255, 0.39);
+}
+form{
+    /* border:rebeccapurple 2px solid; */
+    width:80%;
+    margin: 3em auto;
+}
+form div{
+    margin:1em auto;
+}
+.formHeader {
+    text-align: center;
+}
+.formHeader div input, .bact-txt{
+    border:0;
+    background-color: transparent;
+    outline: none;
+    border-bottom: black 1px solid;
+}
+.firstForm{
+    border: rebeccapurple 1px solid;
+    border-radius: 20px;
+}
