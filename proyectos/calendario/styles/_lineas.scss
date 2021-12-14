@@ -1,0 +1,13 @@
+.calendar {
+  border: 1px solid black;
+  height: 780px;
+  width: 100%;
+  .row {
+    .dias-title {
+      text-align: center;
+      border: 1px solid rgb(25, 0, 255);
+      padding: 2px;
+      margin: 2px;
+    }
+  }
+}
