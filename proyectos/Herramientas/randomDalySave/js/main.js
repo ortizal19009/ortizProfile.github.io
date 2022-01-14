@@ -7,7 +7,7 @@ $(document).ready(function(){
 
         }
         else{
-            var mensaje = "TE AMO MI AMOR, pero trate nuevamente. Y dele un besito a su esposito 😍";
+            var mensaje = "TE AMO MI AMOR </br> Trate nuevamente y dele un besito a su esposito 😍";
             $("#respuesta").html(mensaje);
         }
         
