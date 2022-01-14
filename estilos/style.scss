@@ -1,3 +1,4 @@
+@import"colores";
 body{
     background-color:rgba(183, 213, 226, 0.568);
 }
@@ -6,17 +7,17 @@ body{
 }
 header{
     text-align:center;
-    background-image: url(img/portada.jpg);
+    background-image: url(../img/portada.jpg);
     height: 300px;    
     border-radius: 0.5em;
 }
 .clHeader{
     margin-top:1em;
 }
-header h1,h2{
-    color: white;
+// header h1,h2{
+//     color: white;
 
-}
+// }
 #idFotoPerfil{
     width:200px;
     height:auto;
