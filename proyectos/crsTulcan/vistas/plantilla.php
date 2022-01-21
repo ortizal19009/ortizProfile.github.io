@@ -18,7 +18,7 @@
     LOGOTIPO
 ===================================== -->
     <div class="container-fluid">
-        <h3 class="text-center py-3">CLP-CARCHI-N°1</h3>
+        <h3 class="text-center py-3">CENTRO DE PRIVACIÓN DE LIBERTAD - CARCHI - N° 1</h3>
     </div>
     <!-- =============================
     BOTONERA
@@ -33,11 +33,17 @@
                     <?php else : ?>
                         <li class="nav-item"><a href="index.php?pagina=inicio" class="nav-link">Inicio</a></li>
                     <?php endif ?>
-                    <?php if ($_GET['pagina'] == 'ingreso') : ?>
-                        <li class="nav-item "><a href="index.php?pagina=ingreso" class="nav-link active">Ingreso</a></li>
+                    <?php if ($_GET['pagina'] == 'ingresoCPL') : ?>
+                        <li class="nav-item "><a href="index.php?pagina=ingresoCPL" class="nav-link active">Ingreso CPL</a></li>
 
                     <?php else : ?>
-                        <li class="nav-item"><a href="index.php?pagina=ingreso" class="nav-link">Ingreso</a></li>
+                        <li class="nav-item"><a href="index.php?pagina=ingresoCPL" class="nav-link">Ingreso CPL</a></li>
+                    <?php endif ?>
+                    <?php if ($_GET['pagina'] == 'ingresoCDP') : ?>
+                        <li class="nav-item "><a href="index.php?pagina=ingresoCDP" class="nav-link active">Ingreso CDP</a></li>
+
+                    <?php else : ?>
+                        <li class="nav-item"><a href="index.php?pagina=ingresoCDP" class="nav-link">Ingreso CDP</a></li>
                     <?php endif ?>
                     <?php if ($_GET['pagina'] == 'registro_salida') : ?>
                         <li class="nav-item "><a href="index.php?pagina=registro_salida" class="nav-link active">Registro de salidas</a></li>
@@ -47,7 +53,8 @@
                     <?php endif ?>                  
                 <?php else : ?>
                     <li class="nav-item "><a href="index.php?pagina=inicio" class="nav-link active">Inicio</a></li>
-                    <li class="nav-item"><a href="index.php?pagina=ingreso" class="nav-link">Ingreso</a></li>
+                    <li class="nav-item"><a href="index.php?pagina=ingreso" class="nav-link">Ingreso CPL</a></li>
+                    <li class="nav-item"><a href="index.php?pagina=ingreso" class="nav-link">Ingreso CDP</a></li>
                     <li class="nav-item"><a href="index.php?pagina=registro_salida" class="nav-link">Registro de salidas</a></li>
                 <?php endif ?>
                 <!-- <li class="nav-item"><a href="#" class="nav-link active">Registro</a></li> -->
@@ -62,7 +69,8 @@ CONTENIDO
             <?php
             if (isset($_GET['pagina'])) {
                 if (
-                    $_GET['pagina'] == 'ingreso' ||
+                    $_GET['pagina'] == 'ingresoCPL' ||
+                    $_GET['pagina'] == 'ingresoCDP' ||
                     $_GET['pagina'] == 'inicio' ||
                     $_GET['pagina'] == 'registro_salida'
                 ) {

@@ -1,1 +1,20 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+#button-guardar {
+  text-align: center;
+  margin: 1em;
+}
+
+.col-md {
+  border: solid 0.5px rgba(0, 0, 0, 0.481);
+  padding: 2px;
+}
+
+input {
+  border: 0;
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
